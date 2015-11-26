@@ -1,2 +1,2 @@
-# himmelsuhr
-Himmelsuhr (SVG, JS)
+# himmelsscheibe
+Himmelsscheibe (SVG, JS)
