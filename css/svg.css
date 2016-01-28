@@ -1,0 +1,25 @@
+/* SVG styling */
+svg {
+	width: 50em;
+	height: 50em;
+    background: url(../img/himmelsscheibe.png) center center no-repeat;
+    background-size: 57%;
+}
+
+path {
+	stroke: #777;
+	stroke-width: 0.1px;
+}
+
+.labels {
+	fill: #aaa;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+.labels.segment {
+	font-size: 10px;
+}
+
+#chart .labels {
+	fill: #555;
+}
