@@ -12,10 +12,12 @@ chart.segmentHeight(15)
 
 /* An array of objects */
 var data = [];
-for(var i=0; i<360; i++) {
+j = 0;
+for(var i=0; i<365; i++) {
     //data[i] = {value: i, value: "Segment "+i};
     //data[i] = i;
-    data[i] = i;
+    j = i + 1;
+    data[i] = j;
 }
 
 console.log(data);
